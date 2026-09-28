@@ -1,0 +1,19 @@
+[project]
+name = "projet4"
+version = "0.1.0"
+description = "Analyse des causes de démission chez TechNova Partners : analyse exploratoire, modèle de classification et interprétation SHAP"
+readme = "README.md"
+authors = [
+    { name = "youdontknowmu", email = "youdontknowmu@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "imbalanced-learn>=0.14.2",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "shap>=0.52.0",
+]
